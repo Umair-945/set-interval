@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+
+}
+
+.timer {
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer-body {
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 7px black;
+    margin: auto;
+    border-radius: 5px;
+    background-color: white;
+    width: 55%;
+    padding: 25px 10px;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.timer-button {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+
+}
+
+.timer-button>button {
+    cursor: pointer;
+    padding: 10px 20px;
+    box-shadow: 3px 3px 7px gray;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px 5px;
+    border-radius: 4px;
+
+}
